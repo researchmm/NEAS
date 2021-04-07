@@ -17,7 +17,6 @@ git clone https://github.com/NVIDIA/apex.git
 python ./apex/setup.py install --cpp_ext --cuda_ext
 ```
 
-#Model Zoo
 
 
 ## Data Preparation 

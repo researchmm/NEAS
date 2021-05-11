@@ -60,7 +60,7 @@ To test our trained models, you need to put the downloaded model in `PATH_TO_CKP
 
 Then, you could use the following command to test the model.
 ```buildoutcfg
-sh ./tools/distribution_test.sh ./configs/subnets/[SELECTED_MODEL_SIZE].yaml
+sh ./tools/distributed_test.sh ./configs/subnets/[SELECTED_MODEL_SIZE].yaml
 ```
 The test result will be saved in `./experiments`. You can also add `[--output OUTPUT_PATH]` in `./tools/distribution_test.sh` to specify a path for it as well.
 
